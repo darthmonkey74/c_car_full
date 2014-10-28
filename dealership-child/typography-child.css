@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* light grey: #cccccc;
+dark grey: #212121;
+orange: #f08f00;
+green: #88c415;
+*/
+
+body {
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.tricol-product-list strong,
+.meta-style,
+.price-style,
+body .right-white-block .deal-rates li p.vehicle-name,
+.main-nav li
+ {
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+
+}
+
+body .right-white-block .deal-rates li p.vehicle-name,
+.right-white-block .deal-rates li p.vehicle-info .price,
+.right-white-block .deal-rates li p.vehicle-info {
+   font-family: 'Lato', sans-serif!important;
+}
+
+.search-form-wrapper {
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 150%;
+   text-align: center;
+   color: #fff;
+}
+
+
+.arrivals-details strong,
+.right-white-block .deal-rates li p.vehicle-name {
+   font-weight: 700!important;
+   font-style: italic!important;
+}
+
+.price-style {
+  font-weight: 900;
+  font-size: 1.8em;
+  color: #88c415!important;
+}
+
+#sidebar .price {
+  font-weight: 900!important;
+  font-size: 1.3em!important;
+  color: #f08f00;
+}
+
+.side-nav .cat-item a {
+	font-size: 11px;
+	line-height: 100%;
+}
+
+h3 {
+	 font-family: 'Lato', sans-serif!important;
+}
+
+.home .tabcontent h3 {
+	color: #99076d;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.home .tabcontent strong {
+	margin-bottom: 5px;
+}
+
+.home .tabcontent p,
+.home .tabcontent ol {
+	font-style: normal;
+    line-height: 170%;
+	font-size: 12px;
+}
+
+.home .tabcontent ol {
+	padding-left: 20px;
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+
+
+#footer .footer_widget,
+#footer .footer_widget a,
+#footer .footer_widget label {
+  color: #cccccc;
+  line-height: 180%	
+}
+
+#footer .footer_widget h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+
+
+@media all and (max-width: 559px) { /* small to medium mobile */
+
+
+	#tel_no {
+		color: #CCC;
+		font-size: 1.5em;
+		line-height: 100%;
+		text-align: center;
+	}
+		
+	#tel_no span {
+		font-size: 12px;
+	}
+	
+	.home #footer .footer_widget {
+		clear: none;
+	}
+	
+	#footer .widget_nav_menu {
+		margin-left: 50px;
+	}
+	
+	.home #footer .widget_text {
+	 	display: block;
+		clear: both;
+		width: auto;
+		float: left;	
+	}
+	
+	#footer #ns_widget_mailchimp_form-2 input[type=text] {
+		float: none;
+		clear: both;
+		display: block;
+	}
+	
+	#footer  #ns_widget_mailchimp_form-2 .button {
+		width: 100px;
+		margin-top: 30px;
+		float: left;
+	}
+
+}
+
+@media all and (max-width: 425px) { /* small mobile */
+	#footer .widget_nav_menu {
+		margin-left: 10px;
+	}
+	
+}
